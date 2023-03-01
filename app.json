@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "testone",
-    "slug": "testone",
+    "name": "demo-react-native-expo",
+    "slug": "demo-react-native-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#25292e"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5b264bd3-0708-4bf7-b345-3269a874bcd2"
+      }
+    },
+    "owner": "mihrbi"
   }
 }
